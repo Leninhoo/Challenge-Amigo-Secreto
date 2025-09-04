@@ -59,7 +59,7 @@ function sortearAmigo()
 {
     if (listaAmigos.length != 0)
     {
-        let numeroEscolhido = parseInt(Math.random() * listaAmigos.length + 1);
+        let numeroEscolhido = parseInt(Math.random() * listaAmigos.length);
         let nomeAmigoEscolhido = listaAmigos[numeroEscolhido];
 
         const campoResultado = document.getElementById('resultado');

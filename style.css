@@ -173,3 +173,9 @@ th, td {
 th {
     background-color: #f4f4f4;
 }
+
+#imagem1 {
+    max-width:10%;
+    height: auto;
+    margin: 30px;
+}

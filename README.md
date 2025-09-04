@@ -64,12 +64,3 @@ Os amigos são armazenados apenas na memória do navegador.
 ### Sorteio Aleatório
 - O sistema escolhe aleatoriamente um nome da lista e exibe-o.
 
----
-
-## 📁 Estrutura do Projeto
-
-```
-├── index.html         (Arquivo principal)
-├── style.css          (Estilos CSS)
-└── app.js             (Lógica JavaScript)
-```
