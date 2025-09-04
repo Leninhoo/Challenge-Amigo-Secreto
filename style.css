@@ -160,3 +160,16 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000; /*borda comum*/
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
