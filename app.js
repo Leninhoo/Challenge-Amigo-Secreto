@@ -55,6 +55,25 @@ function tabelaAmigos()
 
     }
 }
+function sortearAmigo()
+{
+    if (listaAmigos.length != 0)
+    {
+        let numeroEscolhido = parseInt(Math.random() * listaAmigos.length + 1);
+        let nomeAmigoEscolhido = listaAmigos[numeroEscolhido];
+
+        const campoResultado = document.getElementById('resultado');
+        const li = document.createElement('li');
+        li.textContent = nomeAmigoEscolhido
+        campoResultado.appendChild(li);
+        
+
+    }
+    else
+    {
+        alert("A Lista ainda está vazia");
+    }
+}
 
 function LimparCampoNome()
 {
